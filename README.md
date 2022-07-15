@@ -3,13 +3,6 @@
 
 A refactor of [karpathy/minGPT](https://github.com/karpathy/minGPT) to use PyTorch Lightning + Hydra.
 
-The minGPT-lightning library is three files: [mingpt_lightning/model.py](mingpt_lightning/model.py) contains the actual Transformer model definition, Then there are a number of demos and projects that use the library in the `projects` folder:
-
-- `projects/adder` trains a GPT from scratch to add numbers (inspired by the addition section in the GPT-3 paper)
-- `projects/chargpt` trains a GPT to be a character-level language model on some input text file
-- `demo.ipynb` shows a minimal usage of the `GPT` and `Trainer` in a notebook format on a simple sorting example
-- `generate.ipynb` shows how one can load a pretrained GPT2 and generate text given some prompt
-
 ### Usage
 
 Here's how you'd instantiate train a GPT-2 (124M param version) for the adder task:
